@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/03_Script/ShaderFind.unity
+    path: Assets/03_BaseScript/ShaderFind.unity
     guid: 5dfd385ab1bbf4b4eb91a1acde326eac
   m_configObjects: {}

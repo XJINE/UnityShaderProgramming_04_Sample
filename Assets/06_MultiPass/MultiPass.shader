@@ -7,13 +7,14 @@
                           _Threshold  ("Threshold",  Range(1,  0)) = 0.6
                           _Intensity  ("Intensity",  Range(0, 10)) = 3
     }
+
     SubShader
     {
         Cull   Off
         ZWrite Off
         ZTest  Always
 
-        CGINCLUDE // Enable in SubShader
+        CGINCLUDE
 
         #include "UnityCG.cginc"
 

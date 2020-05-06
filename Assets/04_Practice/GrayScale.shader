@@ -21,7 +21,6 @@
             #include "UnityCG.cginc"
 
             sampler2D _MainTex;
-            float     _Scale;
 
             float4 frag(v2f_img input) : SV_Target
             {
